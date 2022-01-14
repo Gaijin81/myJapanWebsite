@@ -1,0 +1,128 @@
+@media only screen and (max-width:1177px) {
+
+
+    .topnav {
+        margin-left: 0px;
+    }
+
+    .container {
+        width: auto;
+    }
+    .center-body {
+        flex-direction: column;
+    }
+
+
+    .htokyo {
+        margin-bottom: 20px;
+    }
+.hkyoto {
+    margin-bottom: 22px;
+}
+    .kyoto {
+        margin: 20px;
+        margin-bottom: 50px;
+    }
+
+    .tokyo {
+        margin: 20px;
+    }
+
+    .cartouche {
+        width: auto;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .cartouche p {
+        text-align: center;
+    }
+
+
+
+    a {
+        margin-right: 26px;
+    }
+
+    .cartouche1,
+    .cartouche2,
+    .cartouche3,
+    .cartouche4,
+    .cartouche5,
+    .cartouche6,
+    .cartouche7 {
+        width: auto;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .fg1,
+    .fd2,
+    .fg3,
+    .fd4,
+    .fg5,
+    .fd6,
+    .fg7 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .gallery1,
+    .gallery2 {
+        flex-direction: column;
+    }
+
+    .pic1,
+    .pic2 {
+        width: 100%;
+        height: 100%;
+        margin: 10px;
+        padding: 25px;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 1029px) {
+
+    .total img {
+        display: none;
+    }
+
+    .contactform {
+        margin: 0px;
+    }
+
+    .fg1,
+    .fd2,
+    .fg3,
+    .fd4,
+    .fg5,
+    .fd6,
+    .fg7 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .gallery1,
+    .gallery2 {
+        flex-direction: column;
+    }
+
+
+}
+
+@media only screen and (max-width: 789px) {
+    .cartouche img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

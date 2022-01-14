@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-Nous</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contactus.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="petite_resolution.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Cinzel:wght@600&family=Dancing+Script:wght@700&family=Indie+Flower&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <header class="header">
+                <div class="left-part-header">
+                    <img src="assets/logo2.png" alt="logo_wave">
+                </div>
+                <div id="root">
+                    <div id="topnav" class="topnav">
+                        <a id="home_link" class="topnav_link" href="./index.html">Accueil</a>
+
+                        <!-- Menu Classic -->
+                        <nav role="navigation" id="topnav_menu">
+                            <a class="topnav_link" href="./where.html">Où Aller ?</a>
+                            <a class="topnav_link" href="./mangas.html">Mangas</a>
+                            <a class="topnav_link" href="./jv.html">Jeux-Vidéos</a>
+                            <a class="topnav_link" href="./contactus.html">Contactez-Nous</a>
+                        </nav>
+
+                        <a id="topnav_hamburger_icon" href="javascript:void(0);" onclick="showResponsiveMenu()">
+                           <!-- Quelques spans pour agir comme un hamburger -->
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+
+                        <!-- Menu Responsive -->
+                        <nav role="navigation" id="topnav_responsive_menu">
+                            <ul>
+                                <li><a href="./index.html">Accueil</a></li>
+                                <li><a href="./where.html">Où Aller ?</a></li>
+                                <li><a href="./mangas.html">Mangas</a></li>
+                                <li><a href="./jv.html">Jeux-Vidéos</a></li>
+                                <li><a href="./contactus.html">Contactez-Nous</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <section id="total" class="total">
+                <img src="./assets/logo7.png" alt="samurai">
+                <section id="form" class="form">
+
+                    <form id="contactform">
+                        <div class="contactform">
+                            <label for="name">Nom:</label>
+                            <input type="text" id="username" name="username" value="Winner" required="">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" value="example@email.com" required="">
+                            <label for="subject">Sujet:</label>
+                            <input type="subject" id="subject" name="subject" maxlength="8" value="Objet" required="">
+                            <label for="message">Ecrivez votre message:</label>
+                            <textarea name="comments" rows="5" cols="40" value="message" required=""></textarea><br>
+                            <div class="button">
+                                <audio id="sound1" src="./assets/videogames/smb_mariodie.wav" preload="auto"></audio>
+                                <button onclick="document.getElementById('sound1').play();">Poster le message</button>
+                            </div>
+                        </div>
+        </div>
+
+        </form>
+
+    </section>
+
+
+
+</body>
+<script src="index.js"></script>
+</html>

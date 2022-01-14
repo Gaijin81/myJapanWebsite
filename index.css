@@ -1,0 +1,114 @@
+* {
+    font-family: 'Caveat', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Indie Flower', cursive;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+
+body {
+    
+    background-image: url("./assets/logo3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.center-body {
+    display: flex; 
+    align-items: center;
+}
+
+section {
+    background: url(./assets/sakura.gif);
+
+}
+
+img {
+    filter: drop-shadow(19px 10px 4px rgba(29, 0, 0, 0.459));
+}
+
+header {
+    margin: 15px;
+}
+
+
+
+
+.htokyo {
+    background: rgb(255 2 2 / 70%);
+    z-index: 1;
+    width: 40%;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(29 0 0);
+    text-align: center;
+    position: relative;
+    bottom: -50px;
+    cursor: pointer;
+
+}
+
+.pstylet {
+    color: black;
+    font-size: 14px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.hkyoto {
+    background: rgb(2 2 255 / 70%);
+    z-index: 1;
+    width: 40%;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(29 0 0);
+    text-align: center;
+    position: relative;
+    bottom: -50px;
+    cursor: pointer;
+}
+
+.pstylek {
+    color: black;
+    font-size: 14px;
+}
+
+.tokyo {
+    background-image: url(./assets/tokyo/tokyo.jpg);
+    height: 260px;
+    box-shadow: 5px 5px 5px rgb(75, 74, 74);
+    width: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
+
+.kyoto {
+    background-image: url(./assets/kyoto/Machiya-homes-traditional-houses-for-rent-in-Kyoto.jpg);
+    height: 260px;
+    box-shadow: 5px 5px 5px rgb(75, 74, 74);
+    margin-left: 200px;
+    width: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 40px;
+
+}

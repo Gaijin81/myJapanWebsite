@@ -1,0 +1,24 @@
+* {
+    font-family: 'Caveat', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Indie Flower', cursive;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+
+
+}
+
+header {
+    margin: 15px;
+}
+
+img {
+    filter: drop-shadow(19px 10px 4px rgba(29, 0, 0, 0.459));
+}
+
+
+

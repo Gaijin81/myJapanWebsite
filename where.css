@@ -1,0 +1,67 @@
+html .container {
+    position: relative;
+}
+
+
+.img_fond1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* pour le cartouche */
+.cartouche {
+    width: 1000px;
+    margin: 20px auto;
+    padding: 10px 0px;
+    color: rgb(0, 60, 255);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 1);
+    background-image: url('./assets/fontwhere.jpg');
+    background-size: cover;
+}
+
+.gallery {
+    width: auto;
+    min-height: 330px;
+    padding: 25px;
+    margin: 0px;
+    display: block;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background: linear-gradient(rgba(255, 251, 1, 0.767), rgba(255, 4, 4, 0.767));
+}
+
+font {
+    font-size: 25px;
+
+}
+
+/* pour les images */
+.fg {
+    float: left;
+    padding: 0px 20px 10px 0px;
+    filter: drop-shadow(13px 15px 8px rgba(255, 0, 0, 0.685));
+
+}
+
+.fd {
+    float: right;
+    padding: 0px 0px 0px 20px;
+    filter: drop-shadow(-13px 15px 8px #0000ffb2);
+
+}
+
+
+.pic {
+    width: 380px;
+    height: auto;
+}

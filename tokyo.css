@@ -1,0 +1,159 @@
+/* pour le cartouche */
+.cartouche1 {
+    width: 1000px;
+    margin: 30px;
+    padding: 10px 0px;
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 1);
+    background-image: url('./assets/fontpastel/1.jpg');
+    background-size: cover;
+}
+.cartouche2 {
+    width: 1000px;
+    margin-left: 250px;
+    padding: 10px 0px;
+    color: rgb(64, 100, 24);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 1);
+    background-image: url('./assets/fontpastel/2.jpg');
+    background-size: cover;
+}
+.cartouche3 {
+    width: 1000px;
+    margin: 30px;
+    padding: 10px 0px;
+    color: purple;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 1);
+    background-image: url('./assets/fontpastel/3.jpg');
+    background-size: cover;
+}
+.cartouche4 {
+    width: 1000px;
+    margin-left: 250px;
+    padding: 10px 0px;
+    color: rgb(165, 122, 42);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 1);
+    background-image: url('./assets/fontpastel/4.jpg');
+    background-size: cover;
+}
+.cartouche5 {
+    width: 1000px;
+    margin: 30px;
+    padding: 10px 0px;
+    color: red;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 1);
+    background-image: url('./assets/fontpastel/5.jpg');
+    background-size: cover;
+}
+.cartouche6 {
+    width: 1000px;
+    margin-left: 250px;
+    padding: 10px 0px;
+    color: blue;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 1);
+    background-image: url('./assets/fontpastel/6.jpg');
+    background-size: cover;
+}
+.cartouche7 {
+    width: 1000px;
+    margin: 30px;
+    padding: 10px 0px;
+    color: green;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 1);
+    background-image: url('./assets/fontpastel/7.jpg');
+    background-size: cover;
+}
+
+.gallery {
+    width: auto;
+    min-height: 330px;
+    padding: 25px;
+    margin: 0px;
+    display: block;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background: linear-gradient(rgb(255, 255, 255), rgba(37, 77, 209, 0.5));
+}
+
+h1 {
+    text-align: center;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background: linear-gradient(rgb(255, 255, 255), rgba(37, 77, 209, 0.5));
+
+}
+
+.gallery p {
+    text-align: justify;
+}
+
+font {
+    font-size: 25px;
+
+}
+
+/* pour les images */
+.fg1 {
+    float: left;
+    padding: 0px 20px 10px 0px;
+    filter: drop-shadow(13px 15px 8px black);
+}
+
+.fd2 {
+    float: right;
+    padding: 0px 0px 0px 20px;
+    filter: drop-shadow(-13px 15px 8px rgb(64, 100, 24));
+}
+
+.fg3 {
+    float: left;
+    padding: 0px 20px 10px 0px;
+    filter: drop-shadow(13px 15px 8px purple);
+}
+
+.fd4 {
+    float: right;
+    padding: 0px 0px 0px 20px;
+    filter: drop-shadow(-13px 15px 8px rgb(165, 122, 42));
+}
+
+.fg5 {
+    float: left;
+    padding: 0px 20px 10px 0px;
+    filter: drop-shadow(13px 15px 8px red);
+}
+
+.fd6 {
+    float: right;
+    padding: 0px 0px 0px 20px;
+    filter: drop-shadow(-13px 15px 8px blue);
+}
+
+.fg7 {
+    float: left;
+    padding: 0px 20px 10px 0px;
+    filter: drop-shadow(13px 15px 8px green);
+}
+
+.pic {
+    width: 380px;
+    height: auto;
+}

@@ -1,0 +1,44 @@
+html {
+    background-image: url(./assets/fontpastel/7.2.jpg);
+    background-size: 147%;
+
+
+}
+
+.cartouche {
+    width: 800px;
+    padding: 10px 0px;
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 1);
+    background-image: url('./assets/fontpastel/1.jpg');
+    background-size: cover;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.gallery {
+    display: flex;
+}
+
+.gallery0 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.pic1 {
+    width: 70%;
+
+}
+
+.pic2 {
+    width: 100%;
+
+
+}
+
+p {
+    cursor: url('./assets/curseur/5nqi.png'), auto;
+}

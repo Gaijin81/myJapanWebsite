@@ -1,0 +1,46 @@
+html {
+    background: url(./assets/tourbillon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pic0 {
+    width: 100%;
+    padding: 20px;
+
+}
+
+.pic1 {
+    height: 260px;
+    width: 450px;
+    margin-top: 90px;
+
+}
+
+.pic2 {
+    height: 290px;
+    width: 380px;
+
+}
+
+.gallery1 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.gallery2 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+h1 {
+    text-align: center;
+
+}
+
+p {
+    text-align: center;
+    padding: 10px;
+}

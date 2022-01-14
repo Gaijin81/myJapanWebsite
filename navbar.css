@@ -1,0 +1,225 @@
+  .header {
+      display: flex;
+  }
+  .left-part-header img {
+    height: 20vh;
+}
+
+  .topnav {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      margin-left: 200px;
+  }
+
+  #root {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  nav a {
+      margin-left: 120px;
+  }
+
+  .topnav_link {
+      color: rgb(228, 18, 18);
+  }
+
+  .topnav_link:hover {
+      color: #0078b4;
+  }
+
+  .topnav nav a:nth-child(4) {
+      color: rgb(49, 103, 204);
+  }
+
+  .topnav nav:hover a:nth-child(4) {
+      color: rgb(228, 18, 18);
+  }
+
+  /* masquer le menu responsive sinon l'interieur du menu hamburger est dévoilé*/
+  #topnav_hamburger_icon,
+  #topnav_responsive_menu {
+      display: none;
+  }
+
+  @media only screen and (max-width: 1148px) {
+
+      /* masquer le menu classique */
+      #topnav_menu {
+          display: none;
+      }
+
+   
+
+      /* position accueil à gauche et hamburger à droite */
+      #home_link {
+          flex-grow: 1;
+      }
+
+      /* scrolling horizontal et vertical du menu hamburger*/
+      #root {
+          position: absolute;
+          right: 120px;
+          overflow-x: hidden;
+          overflow-y: hidden;
+      } 
+
+      /* montrer le menu responsive et la position à droite de l'écran */
+      #topnav_responsive_menu {
+          display: block;
+          position: absolute;
+          margin: 0;
+          right: 0;
+          top: 0;
+          width: 100vw;
+          height: 100vh;
+
+
+          z-index: 99;
+
+          transform-origin: 0% 0%;
+          transform: translate(200%, 0);
+
+          transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+      }
+
+      #topnav_responsive_menu ul {
+          display: flex;
+          flex-direction: column;
+
+          position: absolute;
+          margin: 0;
+          right: 92px;
+          top: 0;
+
+          min-width: 30vw;
+          height: 100vh;
+          padding: 190px 0 0;
+
+          text-align: center;
+
+          background-image: url("./assets/BanniereVerticale.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          border: 4px solid #333;
+          border-radius: 5px;
+
+          list-style-type: none;
+          -webkit-font-smoothing: antialiased;
+      }
+
+      #topnav_responsive_menu li {
+          padding: 19px 12px;
+      }
+
+      #topnav_responsive_menu a {
+          background: linear-gradient(rgb(255, 255, 255), rgb(213 34 75 / 27%));
+          border-radius: 18px;
+          padding: 10px;
+      }
+
+      /* glissons-le menu à partir de la droite */
+      #topnav_responsive_menu.open {
+          transform: none;
+          position: fixed;
+      }
+
+      nav a {
+        margin-left: 23px;
+    }
+      /* ******************** HAMBURGER ICON ******************** */
+      /* définir la taille et la position du lien hamburger */
+      #topnav_hamburger_icon {
+          display: block;
+          position: relative;
+          margin: 16px;
+          width: 33px;
+          height: 28px;
+          z-index: 100;
+          -webkit-ms-user-select: none;
+          cursor: pointer;
+      }
+
+      /* définir le style (taille, couleur, position, animation, ...) des 3 spans */
+      #topnav_hamburger_icon span {
+          display: block;
+          position: absolute;
+          height: 4px;
+          width: 100%;
+          margin-bottom: 5px;
+
+          background: #6214bb;
+          border-radius: 3px;
+
+          z-index: 100;
+
+          opacity: 1;
+          left: 10px;
+
+          -webkit-transform: rotate(0deg);
+          -moz-transform: rotate(0deg);
+          -o-transform: rotate(0deg);
+          transform: rotate(0deg);
+          -webkit-transition: 0.25s ease-in-out;
+          -moz-transition: 0.25s ease-in-out;
+          -o-transition: 0.25s ease-in-out;
+          transition: 0.25s ease-in-out;
+      }
+
+      /* réglez la position des 3 spans pour ressembler à un hamburger */
+      #topnav_hamburger_icon span:nth-child(1) {
+          top: 0px;
+          -webkit-transform-origin: left top;
+          -moz-transform-origin: left top;
+          -o-transform-origin: left top;
+          transform-origin: left top;
+      }
+
+      #topnav_hamburger_icon span:nth-child(2) {
+          top: 12px;
+          -webkit-transform-origin: left center;
+          -moz-transform-origin: left center;
+          -o-transform-origin: left center;
+          transform-origin: left center;
+      }
+
+      #topnav_hamburger_icon span:nth-child(3) {
+          top: 24px;
+          -webkit-transform-origin: left bottom;
+          -moz-transform-origin: left bottom;
+          -o-transform-origin: left bottom;
+          transform-origin: left bottom;
+      }
+
+      /* changer la croix de couleur lors de l’ouverture du menu */
+      #topnav_hamburger_icon.open span {
+          background: red;
+          left: -37px;
+      }
+
+      /*Faire que les spans fassent une croix avant d'ouvrir le menu*/
+      /* le premier span tourne de 45° \ */
+      #topnav_hamburger_icon.open span:nth-child(1) {
+          width: 110%;
+          -webkit-transform: rotate(45deg);
+          -moz-transform: rotate(45deg);
+          -o-transform: rotate(45deg);
+          transform: rotate(45deg);
+      }
+
+      /* le second span disparaît */
+      #topnav_hamburger_icon.open span:nth-child(2) {
+          width: 0%;
+          opacity: 0;
+      }
+
+      /* le dernier span tourne de -45° / */
+      #topnav_hamburger_icon.open span:nth-child(3) {
+          width: 110%;
+          -webkit-transform: rotate(-45deg);
+          -moz-transform: rotate(-45deg);
+          -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+      }
+  }

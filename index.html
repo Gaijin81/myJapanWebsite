@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" media="screen and (max-width: 1280px)" href="petite_resolution.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Cinzel:wght@600&family=Dancing+Script:wght@700&family=Indie+Flower&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        
+        <div class="container">
+            <header class="header">
+                <div class="left-part-header">
+                    <audio id="sakura">
+                        <source src="./assets/Peritune-Sakuya2.mp3">
+                    </audio>
+                    <a onclick="document.getElementById('sakura').play()"><img class="pic"
+                            src="assets/logo2.png" alt="logo_wave">
+                    </a>
+                </div>
+                
+                <div id="root">
+                    <div id="topnav" class="topnav">
+                        <a id="home_link" class="topnav_link" href="./index.html">Accueil</a>
+
+                        <!-- Menu Classic -->
+                        <nav role="navigation" id="topnav_menu">
+                            <a class="topnav_link" href="./where.html">Où Aller ?</a>
+                            <a class="topnav_link" href="./mangas.html">Mangas</a>
+                            <a class="topnav_link" href="./jv.html">Jeux-Vidéos</a>
+                            <a class="topnav_link" href="./contactus.html">Contactez-Nous</a>
+                        </nav>
+
+                        <a id="topnav_hamburger_icon" href="javascript:void(0);" onclick="showResponsiveMenu()">
+                            <!-- Quelques spans pour agir comme un hamburger -->
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+
+                        <!-- Menu Responsive -->
+                        <nav role="navigation" id="topnav_responsive_menu">
+                            <ul>
+                                <li><a href="./index.html">Accueil</a></li>
+                                <li><a href="./where.html">Où Aller ?</a></li>
+                                <li><a href="./mangas.html">Mangas</a></li>
+                                <li><a href="./jv.html">Jeux-Vidéos</a></li>
+                                <li><a href="./contactus.html">Contactez-Nous</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+
+
+            <div class="center-body">
+                <div class="tokyo">
+                    <div class="htokyo">
+                        <a href="./tokyo.html">
+                            <h2>
+                                <font color="blue">TOKYO</font>
+                            </h2>
+                            <p>💊</p>
+                            <p class="pstylet">Moderne</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="kyoto" class="kyoto">
+                    <a href="./kyoto.html">
+                        <div class="hkyoto">
+                            <h2>
+                                <font color="red">KYOTO</font>
+                            </h2>
+                            <p>💊</p>
+                            <p class="pstylek">TraditionneL</p>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <footer>
+
+        </footer>
+
+
+
+    </section>
+
+
+
+</body>
+<script src="index.js"></script>
+
+</html>

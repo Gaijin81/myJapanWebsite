@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeux-Vidéos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jv.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="petite_resolution.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Cinzel:wght@600&family=Dancing+Script:wght@700&family=Indie+Flower&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="img_fond">
+        <img class="img_fond1" src="./assets/videogames/mario.jpg" alt="background" />
+    </div>
+    <section>
+        <div class="container">
+            <header class="header">
+                <div class="left-part-header">
+                    <img src="assets/logo2.png" alt="logo_wave">
+                </div>
+                <div id="root">
+                    <div id="topnav" class="topnav">
+                        <a id="home_link" class="topnav_link" href="./index.html">Accueil</a>
+
+                        <!-- Menu Classic -->
+                        <nav role="navigation" id="topnav_menu">
+                            <a class="topnav_link" href="./where.html">Où Aller ?</a>
+                            <a class="topnav_link" href="./mangas.html">Mangas</a>
+                            <a class="topnav_link" href="./jv.html">Jeux-Vidéos</a>
+                            <a class="topnav_link" href="./contactus.html">Contactez-Nous</a>
+                        </nav>
+
+                        <a id="topnav_hamburger_icon" href="javascript:void(0);" onclick="showResponsiveMenu()">
+                            <!-- Quelques spans pour agir comme un hamburger -->
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+
+                        <!-- Menu Responsive -->
+                        <nav role="navigation" id="topnav_responsive_menu">
+                            <ul>
+                                <li><a href="./index.html">Accueil</a></li>
+                                <li><a href="./where.html">Où Aller ?</a></li>
+                                <li><a href="./mangas.html">Mangas</a></li>
+                                <li><a href="./jv.html">Jeux-Vidéos</a></li>
+                                <li><a href="./contactus.html">Contactez-Nous</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <div class="intro">
+                <h1>LA CULTURE DES JEUX VIDÉO AU JAPON</h1><br>
+                <p>
+                    <font size="5">
+                        Les jeux électroniques aussi appelés jeux vidéo sont généralement constitués
+                        d’une
+                        interface
+                        utilisateur
+                        qui permet
+                        une
+                        interaction humaine ludique, avec un dispositif vidéo qui génère un retour visuel.
+                </p>
+                </font>
+
+                <p>
+                    <font size="5">Le mot « vidéo », dans un jeu vidéo, fait généralement référence à un dispositif
+                        d’affichage de
+                        trame. Ce
+                        terme s’est
+                        ensuite vulgarisé et désormais, il sert à désigner tout type d’affichage.
+                </p>
+                </font>
+            </div>
+
+            <div class="cartouche">
+                <h3>Dispositifs informatiques d’un jeu vidéo</h3>
+                <div class="gallery">
+                    <audio id="mario">
+                        <source src="./assets/untitled_3.mp3">
+                    </audio>
+                    <a onclick="document.getElementById('mario').play()"><img class="pic"
+                            src="./assets/videogames/1_9WHT8gxJzHOabbYjSqn2eA.gif" alt="mariogif">
+                    </a>
+
+                    <p>
+                        <ul>
+                            <li>Les plates-formes</li>
+                        </ul><br>
+                        <p>Pour pouvoir jouer à des jeux vidéo, il faut utiliser des systèmes électroniques qui sont
+                            également
+                            appelés
+                            plates-formes. Au tout début, les ordinateurs de bureau, les consoles de jeux et les
+                            bornes d’arcades
+                            constituaient
+                            les
+                            principales plates-formes. Plus tard, les téléphones portables, les smartphones, ainsi
+                            que les tablettes
+                            tactiles,
+                            sont
+                            devenus, à leur tour, des supports adaptés aux jeux vidéo.</p><br>
+
+                        <ul>
+                            <li>Les périphériques d’entrée</li>
+                        </ul><br>
+                        <p>Pour pouvoir agir sur le jeu et percevoir les conséquences de ses actes sur un
+                            environnement virtuel, le
+                            joueur de
+                            jeu
+                            vidéo doit disposer également de périphériques.</p>
+
+
+                        <p>Selon les plates-formes, un contrôleur de jeu est utilisé comme périphérique d’entrée.
+                            Ainsi, un
+                            contrôleur peut être
+                            une manette de jeu et un unique bouton. De nos jours, les jeux modernes sur ordinateur
+                            nécessitent
+                            l’utilisation
+                            simultanée d’un clavier et d’une souris. Ce couple clavier/souris figure parmi les
+                            périphériques les
+                            plus utilisés.
+                        </p>
+
+                        <p>Pour améliorer l’expérience de certains jeux, des contrôleurs dédiés peuvent être
+                            utilisés. Par exemple,
+                            dans le cas
+                            des
+                            jeux de courses ou de simulateur de vol, les joysticks et les volants entrent en scène,
+                            sans être
+                            indispensables.
+                        </p><br>
+
+                        <ul>
+                            <li>Les périphériques de sortie</li>
+                        </ul><br>
+                        <p>L’image et le son permettent de restituer l’information des jeux vidéo. C’est
+                            principalement à partir du
+                            matériel
+                            existant que l’affichage s’effectue. Pour les consoles de salon, c’est la télévision ou
+                            les moniteurs
+                            d’ordinateur
+                            qui
+                            assurent cette fonction au moyen d’une sortie vidéo. Des haut-parleurs externes ou une
+                            sortie audio vers
+                            un
+                            dispositif
+                            d’amplification externe garantissent le rendu sonore du jeu.</p>
+
+                        <p>De nouveaux périphériques, comme l’EyeToy sur PlayStation , sont apparus tout récemment,
+                            rendant ainsi
+                            possible des
+                            jeux
+                            de réalité virtuelle, ainsi que des jeux en réalité augmentée, comme « EyePet ».</p>
+
+                        <p>L’apparition de la Kinect et du PlayStation Move en 2010 ont permis d’approfondir la
+                            notion de réalité
+                            virtuelle dans
+                            le
+                            jeu vidéo.</p>
+
+                        <p>Quant aux dispositifs de réalité virtuelle, ils se sont développés avec l’apparition de
+                            l’Oculus Rift et
+                            du Project
+                            Morpheus de Sony.
+                        </p>
+                    </p><br>
+
+                </div>
+            </div>
+
+            <div class="cartouche">
+                <h3>L’historique du jeu vidéo</h3>
+                <div class="gallery">
+                    <A href=""><img class="pic" src="./assets/videogames/oxo.jpg" alt="oxo"/></A>
+
+                    <p>
+
+                        <p>On peut dire que l’histoire du jeu vidéo a commencé aux alentours de 1950 avec l’idée de
+                            Ralph Baer.
+                            L’année 1952 a
+                            vu
+                            la réalisation du jeu OXO, suivi en 1958 par Tennis for Two de William Higinbotham. Mais
+                            l’année la plus
+                            communément
+                            admise pour le lancement du jeu vidéo est celle de 1962, avec la sortie de SpaceWar.</p>
+
+                        <p>Quoi qu’il en soit, c’est dans les universités américaines des années 1960 que le jeu vidéo a
+                            vu le jour.
+                            Il a été
+                            largement commercialisé dans les années 1970.</p>
+
+                        <p>Toutefois, le premier jeu suffisamment accrocheur et addictif est sorti en 1972. Il s’agit de
+                            Pong, dont
+                            le gameplay
+                            a
+                            connu un succès fulgurant auprès du grand public.</p>
+
+                        <p>C’est ce jeu qui a servi de rampe de lancement à l’industrie vidéoludique, qui a connu une
+                            croissance
+                            explosive aux
+                            États-Unis.</p>
+
+                        <p>À cause de la surabondance des jeux de mauvaise qualité, aggravée par le manque de maîtrise
+                            des
+                            constructeurs de
+                            consoles, le jeu vidéo américain a cependant subi une crise sans précédent en 1983.</p>
+
+                        <p>Depuis cette année, l’industrie du jeu vidéo a migré vers le Japon. Dans ce pays, grâce à la
+                            NES de
+                            Nintendo et au
+                            jeu
+                            Super Mario Bros, elle connut une nouvelle renaissance. Une nouvelle philosophie dans la
+                            conception des
+                            jeux vidéo
+                            plus
+                            riches et ouverts à tous les publics a vu le jour.
+                        </p>
+                    </p><br>
+                </div>
+            </div>
+
+            <div class="cartouche">
+                <h3>Les jeux vidéo et les Japonais</h3>
+                <div class="gallerystreet">
+                    <div class="picstreetclass">
+
+                        <A href=""><img class="picstreet" src="./assets/videogames/Club_Sega_Akihabara-1024x682.jpg" alt="Club_Sega_Akihabara-1024x682" />
+                        </A>
+
+                        <A href=""><img class="picstreet"
+                                src="./assets/videogames/Club_Sega_Akihabara_arcade-1024x682.jpg" alt="Club_Sega_Akihabara_arcade-1024x682" />
+                        </A>
+                    </div>
+
+                    <p>
+
+                        <p>Au Japon, tout le monde, sans distinction d’âge et de sexe, joue aux jeux vidéo. Dans ce
+                            pays, il n’est
+                            pas rare de
+                            voir
+                            des salariés qui jouent sur leur portable lorsqu’ils prennent le train pour aller au
+                            travail. De même,
+                            on peut
+                            également
+                            voir des enfants se réunir dans un parc pour jouer avec leur console.</p>
+
+                        <p>Une grande variété de types de jeux caractérise les jeux japonais. On peut distinguer entre
+                            autres, des
+                            jeux de
+                            société,
+                            des jeux de réflexion, des jeux populaires ou des jeux de simulation.</p>
+
+                        <p>Au pays du sushi et du saké, certains jeux servent à transmettre des informations pratiques
+                            dans la vie
+                            quotidienne.
+                            D’autres jeux, comme Dragon Quest et Final Fantasy, présentent des aspects artistiques qui
+                            attirent
+                            l’attention,
+                            tandis
+                            que d’autres se différencient par la musique et par la finesse de l’histoire.</p>
+
+                        <p>Quant aux jeux sur Smartphone et sur tablette, ils sont à la mode au Japon. Une récente étude
+                            a montré
+                            qu’environ 60%
+                            des gens qui utilisent un Smartphone jouent sur leur portable.</p>
+                    </p><br>
+                </div>
+            </div>
+
+            <div class="cartouche">
+                <h3>Pourquoi un tel engouement des japonais pour les jeux vidéo ?</h3>
+                <div class="gallery">
+                    <A href=""><img class="pic" src="./assets/videogames/consoles__r1563185781.png" alt="allconsoles" /></A>
+
+                    <p>
+
+                        <p>Au pays du soleil levant, c’est le hardware qui pousse le software. En d’autres termes, c’est
+                            la console
+                            qui, en tant
+                            que produit, constitue le ressort et fait tourner l’industrie du jeu vidéo. Les consoles y
+                            sont très
+                            répandues et
+                            très
+                            appréciées car elles sont de très bonne qualité.</p>
+
+                        <p>Pour pouvoir jouer, avoir d’un côté, à sa disposition une console est indispensable. De
+                            l’autre côté, on
+                            a une
+                            profusion
+                            de logiciels qui n’attendent qu’à être utilisés. II y a donc une émulation entre conception
+                            de logiciels
+                            et
+                            production
+                            de consoles.</p>
+
+                        <p>Pour la petite histoire, sachez que dans les années 1970 – 80 l’archipel nippon figurait
+                            parmi les pays
+                            gros
+                            producteurs
+                            de semi-conducteurs. Le pays était ainsi connu sous le nom de « Nation électrique », et
+                            produisait
+                            massivement des
+                            semi-conducteurs répondant aux normes et spécifications requises. Le Japon est ensuite
+                            devenu une
+                            référence en jeu
+                            vidéo
+                            car du semi-conducteur à une console de jeu, le chemin est tout tracé.</p>
+
+                        <p>Malgré le fait que l’industrie du jeu vidéo a vu le jour au pays de l’oncle Sam, c’est au
+                            Japon qu’elle
+                            s’est
+                            développée
+                            le plus. En effet, Nintendo et Sony, ainsi que Sega et Konami, sans oublier Namco, Bandaï et
+                            Capcom,
+                            sont tous des
+                            leaders mondiaux incontestés dans le domaine.</p>
+                    </p><br>
+                </div>
+            </div>
+
+            <div class="cartouche">
+                <h3>Comment le Japon est devenu le numéro un mondial du jeu vidéo ?</h3>
+                <div class="gallerystreet">
+                    <audio id="street">
+                        <source src="./assets/videogames/hadouken.wav">
+                    </audio>
+                    <a onclick="document.getElementById('street').play()"><img class="picstreet2"
+                            src="./assets/videogames/street_fighter__x_tekken_by_alexcpu-d79wt6g.png" alt="streetfightervstekken">
+                    </a>
+                    <p>
+
+                        <p>Les japonais se sont imposés au niveau mondial en matière de jeu vidéo, grâce à leur culture.
+                            En effet,
+                            comme pour le
+                            cas du « Haïku », cet art des jardins japonais, ils ont créé une culture richement
+                            imaginative et
+                            minimaliste.
+                            Contrairement à l’animation totale façon Walt Disney, le concept d’animation limitée a
+                            permis à
+                            l’animation
+                            japonaise de
+                            se faire une place dans le monde entier.</p>
+
+                        <p>Un rapprochement peut être fait avec le thème musical du jeu Dragon Quest qui a été composé
+                            en 1986 par
+                            Sugiyama
+                            Kôichi.
+                            En fin de compte, ce thème ne repose que sur trois accords. Pourtant, après plus de 20 ans,
+                            il demeure
+                            toujours
+                            aussi
+                            célèbre. Tel est par exemple le cas de l’Ukiyo-e qui, grâce à la vivacité de ses couleurs,
+                            la simplicité
+                            et le
+                            dynamisme
+                            de sa composition, ainsi que la richesse de son expression, a émerveillé les amateurs d’art
+                            du monde
+                            entier.</p>
+
+                        <p>Ainsi, le principal but de la culture japonaise consiste à produire un maximum d’émotions
+                            avec un minimum
+                            de
+                            ressources,
+                            et des mises en scène ingénieuses. Cet objectif constitue la clé de ce succès planétaire en
+                            matière de
+                            jeu vidéo.
+                        </p>
+                    </p>
+                </div>
+            </div>
+    </section>
+</body>
+<script src="index.js"></script>
+
+</html>
